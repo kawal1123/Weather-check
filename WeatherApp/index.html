@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c0e505683e.js" crossorigin="anonymous"></script>
+    <title>WeatherApp</title>
+   
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="text-primary text-center" style="font-size:80px;">Weather</h1>
+        <input type="text" class="form-control-lg" id="city-input">
+    <br>
+    <br>
+    <button type="button" class="btn btn-primary" onclick="searchCity()" style="width: 120px;height: 60px;font-size: 30px;">Check</button>
+</div>
+    <br>
+    <br>
+<div class="container-lg">
+    <div class="card-header">
+        <h1 id ="city-name" class="text-center">---------------</h1>
+  
+    <div class="card-body">
+        <h1 id="weather-type" class="text-center">----------------</h1>
+        <ol class="text-center" style="list-style:none;">
+        <h1>
+            <li>Temp:<span id="temp">-------------</span> &#8457;</li>
+            <l1>Min Temp: <span id="min-temp"> ------- </span>&#8457;</l1>
+            <li>Max Temp: <span id="max-temp"> ------- </span>&#8457;</li></ol></h1>
+    </div>
+</div>
+</div>
+<script src="WeatherApp.js"></script>
+</body>
+</html>
